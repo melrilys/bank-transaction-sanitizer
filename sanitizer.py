@@ -38,5 +38,5 @@ if __name__ == "__main__":
     print(" Starting Intelligent Banking Sanitizer...")
     clean_data = clean_transactions(raw_data)
     for clean_tx in clean_data:
-        print(f"✅ Approved Tx: {clean_tx['tx_id']} | User: {clean_tx['user']} | Total: {clean_tx['currency']} {clean_tx['amount']}")
+        print(f"Approved Tx: {clean_tx['tx_id']} | User: {clean_tx['user']} | Total: {clean_tx['currency']} {clean_tx['amount']}")
 
